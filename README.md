@@ -24,3 +24,18 @@ The machine failure consists of five independent failure modes
 If at least one of the above failure modes is true, the process fails and the 'machine failure' label is set to 1. It is therefore not transparent to the machine learning method, which of the failure modes has caused the process to fail.
 
 **In this project, we focus solely on whether the machine will fail or not.**
+
+# Libraries
+
+*   pandas
+*   matplotlib
+*   seaborn
+*   scikit-learn
+
+# Algorithms
+
+*   Logistic Regression
+*   Random Forest
+*   XGBoost
+
+**Among all the models evaluated, XGBoost demonstrates the best performance.**
