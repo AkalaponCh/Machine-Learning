@@ -23,6 +23,8 @@ The machine failure consists of five independent failure modes
 
 If at least one of the above failure modes is true, the process fails and the 'machine failure' label is set to 1. It is therefore not transparent to the machine learning method, which of the failure modes has caused the process to fail.
 
+**Download Link: https://www.kaggle.com/datasets/stephanmatzka/predictive-maintenance-dataset-ai4i-2020**
+
 **In this project, we focus solely on whether the machine will fail or not.**
 
 # Libraries
@@ -39,3 +41,6 @@ If at least one of the above failure modes is true, the process fails and the 'm
 *   XGBoost
 
 **Among all the models evaluated, XGBoost demonstrates the best performance.**
+
+# Reference
+*   https://www.kaggle.com/code/jeevikasharma2003/ml-powered-maintenance-smarter-proactive
